@@ -1,0 +1,297 @@
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	font-size:12px;
+	line-height:20px;
+	background:#0894D6;
+	font-family:Arial, "宋体", Helvetica, sans-serif;
+}
+a {
+	text-decoration:none;
+	color:#15c
+}
+a:hover {
+	color:#f00;
+	text-decoration:underline;
+}
+ul, li {
+	list-style:none
+}
+.clearfix:after {
+	content: "\20";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height:1%;
+}
+.clearfix {
+	display:block;
+}
+.clear {
+	clear:both;
+	font-size:0;
+	height:0;
+	line-height:0;
+	overflow:hidden
+}
+.loop {
+	width:960px;
+	margin:0 auto;
+	background:#fff;
+}
+.topLogin {
+	color:#666;
+	height:30px;
+	line-height:30px;
+	background:#F7FFE5;
+	border:1px solid #00CC00;
+	padding:0 10px
+}
+.topLogin a {
+	padding:0 10px;
+}
+.top, .top2 {
+	height:158px;
+	margin:1px 0 0 0
+}
+.top a {
+	display:block;
+	height:158px;
+	background:url(../images/top.gif) no-repeat;
+	text-indent:-10000em
+}
+.top2 a {
+	display:block;
+	height:150px;
+	background:url(../images/top2.gif) no-repeat;
+	text-indent:-10000em
+}
+.navs {
+	height:30px;
+	line-height:30px;
+	margin:1px 0 0 0;
+	background:#f60;
+	border:1px solid #a00
+}
+.navs p {
+	float:left;
+	font-weight:bolder
+}
+.navs a {
+	color:#fff;
+	padding:0 50px;
+	border-right:1px solid #a00
+}
+.search {
+	padding:5px 10px;
+	text-align:center;
+	border:1px solid #a00;
+	border-top:none
+}
+.bigTitle {
+	height:30px;
+	background:#EEF6F9;
+	border:1px solid #CCE6F1;
+	line-height:30px;
+	margin:0 10px;
+	padding:0 0 0 10px;
+	font-weight:bolder;
+	color:#000;
+	font-size:14px;
+}
+th {
+	font-weight:normal;
+	text-align:right;
+	font-size:14px;
+	padding:5px
+}
+td {
+	font-size:14px;
+	padding:5px
+}
+.loginForm {
+	margin:10px 0 0 0
+}
+.footer {
+	margin:10px auto 0 auto;
+	width:960px;
+	padding:20px 0;
+	border-top:1px #4798D4 solid;
+	text-align:center;
+	background:#fff
+}
+.submit {
+	padding:3px 10px
+}
+#user {
+	background:#fff
+}
+.userLoop {
+	border:1px solid #ccc;
+	border-top:0;
+	padding:10px 0;
+	width:958px
+}
+.formTable {
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	margin:10px;
+	width:938px
+}
+.formTable td {
+	padding:5px 10px;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc
+}
+.peger {
+	text-align:center;
+	padding:20px 0 10px 0
+}
+.peger a {
+	color:#f00
+}
+.adminLogin {
+	width:500px;
+	margin:100px auto
+}
+.adminLogin p {
+	line-height:30px;
+	text-align:center;
+	color:#fff;
+	padding:0 0 10px 0;
+	font-size:30px;
+	font-family:"华文行楷"
+}
+.adminLogin b {
+	display:block;
+	height:30px;
+	background:#4CBC01;
+	border:1px solid #4EA922;
+	line-height:30px;
+	padding:0 10px
+}
+.adminLogin div {
+	border:1px solid #999;
+	border-top:0;
+	background:#fff;
+	padding:10px
+}
+.adminTop {
+	height:77px;
+	background:#79C352;
+	line-height:77px;
+	color:#fff;
+	border-bottom:#236412 3px solid
+}
+.adminLogo {
+	float:left;
+	font-size:30px;
+	color:#fff;
+	line-height:80px;
+	padding:0 10px;
+	font-family:"华文行楷"
+}
+#leftBg {
+	background:#4CAA22
+}
+#bodyBg {
+	background:#fff
+}
+.welcome {
+	margin:10px;
+	background:#D1DDAB
+}
+.leftNav {
+	padding:5px
+}
+.leftNav dt {
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	color:#fff;
+	background:#236412;
+	font-weight:bolder
+}
+.leftNav dd {
+	line-height:20px;
+	border-bottom:1px dashed #236412;
+	text-align:center
+}
+.leftNav a {
+	color:#fff
+}
+.adminBody {
+	margin:10px
+}
+.bigTitle2 {
+	height:30px;
+	background:#EEF4EA;
+	border:1px solid #CBD8AC;
+	line-height:30px;
+	padding:0 0 0 10px;
+	font-weight:bolder;
+	color:#000;
+	font-size:14px;
+}
+.adminTable {
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	margin:10px 0 0 0
+}
+.adminTable td {
+	padding:5px 10px;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc
+}
+.postAdd {
+	width:960px;
+	padding:10px 0 5px 0;
+	border-top:1px solid #09c;
+	margin:10px auto 0 auto;
+	background:#fff
+}
+.postCont {
+	padding:20px
+}
+.reList {
+	padding:5px 10px;
+	border-bottom:1px solid #09c;
+}
+.reList em {
+	color:#999;
+	font-style:normal
+}
+.allBox { float:left; width:306px; overflow:hidden; margin:10px 0 0 10px; display:inline}
+.boxTit { height:30px; line-height:30px; padding:0 10px; background:#E3F4FB; border:1px solid #92D7EB; font-weight:bolder}
+.boxList { border:1px solid #92D7EB; padding:10px; border-top:0; height:150px; overflow:hidden}
+.boxList li { line-height:30px; height:30px; border-bottom:1px dashed #ddd;width:280px; overflow:hidden}
+.lunbo{ width:304px;height:200px; border:1px solid #000; overflow:hidden; position:relative; float:left; display:inline}
+.lunbo .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }
+.lunbo .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.lunbo .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }
+.lunbo .hd ul li.on{ background:#09c; color:#fff; }
+.lunbo .bd{ position:relative; height:100%; z-index:0;   }
+.lunbo .bd li{ zoom:1; vertical-align:middle; }
+.lunbo .bd img{ width:304px; height:200px; display:block; border:0 }
+.left { float:left; width:250px; overflow:hidden; margin:0 10px 0 0}
+.right { float:left; width:690px; padding:10px 0 0 0}
+.leftBox { margin:10px 0 0 10px}
+.leftBox li { line-height:25px; border-bottom:1px solid #ddd; padding:0 10px; width:200px; height:25px; overflow:hidden}
+.artList li { line-height:35px; border-bottom:1px solid #ddd; padding:0 10px}
+.artList li em { float:right; font-style:normal; color:#999}
+.artPhoto { display:block; width:500px; margin:0 auto 20px auto; border:1px solid #ccc}
+.artDown { height:40px; width:150px; margin:0 auto 20px auto; display:block; background:#f60; line-height:40px; text-align:center; font-weight:bolder; color:#fff}
+.colList { float:left; width:400px; border:1px solid #6A8FB5; background:#EEFFFF; padding:20px; display:inline; margin:20px 0 0 20px}
+.colListIcon { float:left; height:50px; width:50px; margin:0 10px 0 0; background:url(../images/11.png) no-repeat}
+.clName { float:left; width:320px; line-height:25px;}
+.clTotal { float:left; width:320px; line-height:25px}
+.disTable { border-left:1px solid #ccc; border-top:1px solid #ccc; margin:0 5px 5px 5px; width:948px}
+.disTable td {  border-right:1px solid #ccc; border-bottom:1px solid #ccc; font-size:12px}
