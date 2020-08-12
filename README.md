@@ -1,5 +1,5 @@
 # patisserie
-Logiciel: WampServer64 (Faut ouvrir SMTP service pour PHP mail)
+Logiciel: WampServer64 (Faut ouvrir SMTP service pour PHP mail). mysql wampserver| phpMyAdmin
 
 PHP, JavaScript, CSS, Html
 
